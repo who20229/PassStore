@@ -1,0 +1,10 @@
+os
+re
+sys
+tabulate
+discord
+termcolor
+dotenv
+pymongo
+password_generator
+requests
