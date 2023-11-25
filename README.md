@@ -5,7 +5,7 @@ I made this project as my final project of CS50, if you have any questions, plea
 ## [⌨️] USAGE: How do i use this?
 `requirements.txt` holds all the required libraries, it can be installed with `pip install -r requirements.txt`  
 
-in .env file  
+create .env and in .env file  
 ```
 DISCORD_WEBHOOK_URL=Your_discord_webhook_url
 CONNECTION=MONGO_CONNECTION_URL
