@@ -7,10 +7,11 @@ from termcolor import colored
 from dotenv import load_dotenv
 from pymongo import MongoClient
 from password_generator import PasswordGenerator
+
 load_dotenv()
 ConnectionString = os.environ["CONNECTION"] 
 mClient = MongoClient(ConnectionString)
-db = mClient['Softaim']
+db = mClient['DB_NAME']
 userCollection = db['finalUserSchema']
 passCollection = db['pasSchema']
 
